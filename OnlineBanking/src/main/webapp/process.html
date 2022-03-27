@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body
+{
+  background-color:lightpink;
+}
+  div
+  {
+    display:flex;
+  }
+  #frame11
+  {
+  display : block;
+  background-color: blue;
+  text-align:center;
+  }
+  button
+  {
+  padding : 15px;
+  width : 200px;
+  margin-bottom : 20px;
+  background-color: blue;
+  border : 2px solid white;
+  }
+  #frame12
+  {
+    margin-left : 40px; 
+    border : 2px solid red;
+  }
+  
+  a
+  {
+    text-decoration :none;
+    padding : 20px;
+    color:white;
+    text-align:center;
+    
+  }
+</style>
+</head>
+<body>
+<div>
+    <div id="frame11"><br>
+    <button><a href="bal" target="frame1">View Profile</a></button>
+    <button><a href="deposit.html" target="frame1">Deposit</a></button>
+    <button><a href="withdraw.html" target="frame1">WithDraw</a></button>
+    <button><a href="transferamt.html" target="frame1">Transfer Amount</a></button>
+    <button><a href="pinchange.html" target="frame1">Pin Change</a></button>
+    <button><a href="mnumberchange.html" target="frame1">MobileNumberUpdate</a></button>
+    <button><a href="mini.jsp" target="frame1">Mini Statement</a></button>
+    <button><a href="logout">Logout</a></button>
+    </div>
+    <br><br>
+    <div id="frame12">
+       <iframe src="" name="frame1" height="550" width="1250" style="text-align:center"></iframe>
+    </div>
+</div>
+</body>
+</html>

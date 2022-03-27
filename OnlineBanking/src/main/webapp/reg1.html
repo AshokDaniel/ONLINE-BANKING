@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+  #body
+  {
+    background-color : lightblue;
+  }
+  #l
+  {
+    background-color : hotpink;
+    padding : 10px;
+    width : 80px;
+    font-size :100%;
+  }
+  #f
+  {
+    text-align : center;
+    background-color : white;
+    margin-left:500px;
+    height :800px;
+    width : 500px;
+  }
+  .lab
+  {
+     font-size :20px;
+     color: orange;
+  }
+  .i
+  {
+      border: 2px solid red;
+      border-radius :5px;
+  }
+  </style>
+</head>
+<body id="body">
+ <form id="f" action="reg" method="post">
+   <h1>User Details</h1>
+ <label class="lab">UserName:</label><br><input type="text" name="uname" required class="i"><br><br>
+ <label class="lab">Password:</label><br><input type="password" name="pword" required class="i"><br><br>
+ <label class="lab">FirstName:</label><br><input type="text" name="fname" required class="i"><br><br>
+ <label class="lab">LastName:</label><br><input type="text" name="lname" required class="i"><br><br>
+ <label class="lab">Address:</label><br><input type="text" name="addr" required class="i"><br><br>
+ <label class="lab">MailId:</label><br><input type="text" name="mid" required class="i"><br><br>
+ <label class="lab">PhoneNo:</label><br><input type="text" name="phno" required class="i"><br><br>
+ <label class="lab">EnterInitialBal:</label><br><input type="text" name="bal" required class="i"><br><br>
+ <label class="lab">Enter AccNo :</label><br><input type="text" name="accno" required class="i"><br><br>
+ <label class="lab">TypeOfAcc :</label><br><input type="text" name="toa" required class="i"><br><br>
+ <label class="lab">PinNumber :</label><br><input type="text" name="pin" required class="i"><br><br>
+ <input type="submit" value="Register" id="l">
+ </form>
+</body>
+</html>
